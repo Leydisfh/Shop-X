@@ -1,0 +1,10 @@
+{
+  "usuarios": [
+    {
+      "id": "8e487857-1a9d-4585-abda-bb5a266253eb",
+      "name": "lola",
+      "email": "lola@gmail.com",
+      "password": "Lola1234"
+    }
+  ]
+}

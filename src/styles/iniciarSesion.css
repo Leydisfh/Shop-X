@@ -1,0 +1,44 @@
+.sesion{
+    margin: auto;
+}
+
+h3{
+    font-size: .8rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    text-align: end;
+    padding-right: .5rem;
+    border-right: 1px solid var(--blue-color);
+}
+
+h3:hover{
+    cursor: pointer;
+}
+
+.alert{
+   color: red;
+   font-size: .8rem;
+}
+
+.alert-icon{
+    color: red;
+    font-size: 1rem;
+}
+
+.input-container{
+    display: flex;
+    position: relative;
+}
+
+.eye-close{
+position: absolute;
+z-index: 1;
+right: 20px;
+top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .eye-close{
+        top: 35px;
+    }
+}

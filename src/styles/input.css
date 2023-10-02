@@ -1,0 +1,48 @@
+
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .6rem;
+    width: 100%;
+}
+
+label{
+    font-weight: 600;
+    margin-bottom: .3rem;
+    font-size: .8rem;
+}
+
+input{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    border:1.3px solid var(--dark-blue);
+    
+    
+}
+
+input:focus{
+outline: none;
+border-color: var(--green-color);
+
+}
+::placeholder{
+    font-size: .7rem;
+}
+
+span{
+    color: var(--dark-blue);
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:768px) {
+    input{
+        padding: .8rem;
+       
+
+    }
+    label{
+        font-size: 1rem;
+    }
+}

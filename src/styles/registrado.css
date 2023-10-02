@@ -1,0 +1,61 @@
+.registrado-container{
+    width: 55%;
+    height: 35vh;
+    background-color: #fff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.registro-icon svg{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: var(--green-color);
+    
+}
+
+.registrado-title{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.registrado-btn{
+    margin-top: 2.5rem;
+    background-color: var(--dark-blue);
+    color: #fff;
+    border: none;
+    padding: .5rem;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.registrado-btn:hover{
+    cursor: pointer;
+    background-color: var(--blue-color);
+}
+
+
+@media screen and (min-width:768px) {
+    .registrado-container{
+        width: 40%;
+        height: 85vh;
+        margin-top: 0;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .registro-icon svg{
+        font-size: 4rem;
+    }
+    .registrado-title{
+        font-size: 1.2rem;
+    }
+    .registrado-btn{
+        padding: .8rem;
+        width: 40%;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,53 @@
+/*Listo*/
+
+.formBody{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+   
+}
+
+.input-container{
+    position: relative;
+}
+
+.eye{
+    position: absolute;
+    font-size: 1rem;
+    z-index: 1;
+    bottom: 75px;
+    right: 65px;
+}
+
+
+@media screen and (min-width:425px) {
+    .eye{
+        right: 85px;
+    }
+}
+@media screen and (min-width:768px) {
+    .eye{
+        font-size: 1.3rem;
+        bottom: 30px;
+        right: 145px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .formBody{
+        margin: auto;
+        
+    }
+    .eye{
+        font-size: 1.3rem;
+        bottom: 185px;
+        right: 380px;
+       
+    }
+
+   
+}
+
+
+
